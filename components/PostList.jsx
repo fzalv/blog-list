@@ -11,7 +11,7 @@ const PostList = () => {
         <a href="#" className="border-solid border-2 border-amber-600 bg-amber-400 rounded-md py-1 px-4 font-normal text-sm">
           Baca Selengkapnya
         </a>
-        <p className="pt-2 pb-2 font-medium underline">Posted on Februari 18,2022</p>
+        <p className="pt-2 pb-2 font-normal underline">Posted on Februari 18,2022</p>
       </div>
       <div className="bg-slate-300 p-2 mb-2 rounded-md">
         <h1 className="text-base font-semibold pb-2">Judul Berita</h1>
@@ -19,7 +19,7 @@ const PostList = () => {
         <a href="#" className="border-solid border-2 border-amber-600 bg-amber-400 rounded-md py-1 px-4 font-normal text-sm">
           Baca Selengkapnya
         </a>
-        <p className="pt-2 pb-2 font-medium underline">Posted on Februari 18,2022</p>
+        <p className="pt-2 pb-2 font-normal underline">Posted on Februari 18,2022</p>
       </div>
       <div className="bg-slate-300 p-2 mb-2 rounded-md">
         <h1 className="text-base font-semibold pb-2">Judul Berita</h1>
@@ -27,7 +27,7 @@ const PostList = () => {
         <a href="#" className="border-solid border-2 border-amber-600 bg-amber-400 rounded-md py-1 px-4 font-normal text-sm">
           Baca Selengkapnya
         </a>
-        <p className="pt-2 pb-2 font-medium underline">Posted on Februari 18,2022</p>
+        <p className="pt-2 pb-2 font-normal underline">Posted on Februari 18,2022</p>
       </div>
       <div className="bg-slate-300 p-2 mb-2 rounded-md">
         <h1 className="text-base font-semibold pb-2">Judul Berita</h1>
@@ -35,7 +35,7 @@ const PostList = () => {
         <a href="#" className="border-solid border-2 border-amber-600 bg-amber-400 rounded-md py-1 px-4 font-normal text-sm">
           Baca Selengkapnya
         </a>
-        <p className="pt-2 pb-2 font-medium underline">Posted on Februari 18,2022</p>
+        <p className="pt-2 pb-2 font-normal underline">Posted on Februari 18,2022</p>
       </div>
     </div>
   );

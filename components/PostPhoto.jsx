@@ -1,25 +1,35 @@
 import React from "react";
+import Image from "next/image";
+import GPhoto1 from "../public/img/GPhoto1.jpg";
+import GPhoto2 from "../public/img/GPhoto2.jpg";
+import GPhoto3 from "../public/img/GPhoto3.jpg";
 
 const PostPhoto = () => {
   return (
     <div className="intro">
       <div className="font-bold text-xl pb-8">GALERI PHOTO</div>
-
-      <div className="bg-slate-300 p-2 mb-2 rounded-md">
-        <h1 className="text-base font-semibold pb-2">Judul Berita</h1>
-        {/* <p className="pb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, non?</p>
-        <a href="#" className="border-solid border-2 border-amber-600 bg-amber-400 rounded-md py-1 px-4 font-normal text-sm">
-          Baca Selengkapnya
-        </a> */}
-        <p className="pt-2 pb-2 font-medium underline">Posted on Februari 18,2022</p>
+      <div className="bg-slate-300 p-2 mb-2 h-64 rounded-md flex flex-wrap">
+        <Image src={GPhoto1} className="rounded-md" alt="" />
+        <div className=" w-full rounded-b-md p-2">
+          <p className="pb-1">BAHAYA MENGANGGUR!!</p>
+          <p className="pt-1 font-normal underline">Posted on Februari 18,2022</p>
+        </div>
       </div>
-      <div className="bg-slate-300 p-2 mb-2 rounded-md">
-        <h1 className="text-base font-semibold pb-2">Judul Berita</h1>
-        {/* <p className="pb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, non?</p>
-        <a href="#" className="border-solid border-2 border-amber-600 bg-amber-400 rounded-md py-1 px-4 font-normal text-sm">
-          Baca Selengkapnya
-        </a> */}
-        <p className="pt-2 pb-2 font-medium underline">Posted on Februari 18,2022</p>
+
+      <div className="bg-slate-300 p-2 mb-2 h-64 rounded-md flex flex-wrap">
+        <Image src={GPhoto2} className="rounded-md" alt="" />
+        <div className=" w-full rounded-b-md p-2">
+          <p className="pb-1">BAHAYA MENGANGGUR!!</p>
+          <p className="pt-1 font-normal underline">Posted on Februari 18,2022</p>
+        </div>
+      </div>
+
+      <div className="bg-slate-300 p-2 mb-2 h-64 rounded-md flex flex-wrap">
+        <Image src={GPhoto3} className="rounded-md" alt="" />
+        <div className=" w-full rounded-b-md p-2">
+          <p className="pb-1">BAHAYA MENGANGGUR!!</p>
+          <p className="pt-1 font-normal underline">Posted on Februari 18,2022</p>
+        </div>
       </div>
     </div>
   );

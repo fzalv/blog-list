@@ -1,0 +1,10 @@
+.images {
+  background: url(../public/img/Gphoto1.jpg);
+  border-radius: 6px;
+  width: 100%;
+  background-size: cover;
+  /* display: flex;
+  position: relative; */
+  /* height: 200px; */
+  /* padding: 8px; */
+}
