@@ -7,12 +7,24 @@ const Navbar = () => {
         <h1 className="font-bold text-lg">BERITA UHUY</h1>
         <nav>
           <ul className="flex ">
-            <li className="mr-8 font-normal">Dunia</li>
-            <li className="mr-8 font-normal">Nasional</li>
-            <li className="mr-8 font-normal">Olahraga</li>
-            <li className="mr-8 font-normal">Politik</li>
-            <li className="mr-8 font-normal">Hiburan</li>
-            <li className="mr-8 font-normal">Anime</li>
+            <li className="mr-8 font-normal">
+              <a href="#">Dunia</a>
+            </li>
+            <li className="mr-8 font-normal">
+              <a href="#">Nasional</a>
+            </li>
+            <li className="mr-8 font-normal">
+              <a href="#">Olahraga</a>
+            </li>
+            <li className="mr-8 font-normal">
+              <a href="#">Politik</a>
+            </li>
+            <li className="mr-8 font-normal">
+              <a href="#">Hiburan</a>
+            </li>
+            <li className="mr-8 font-normal">
+              <a href="#">Anime</a>
+            </li>
           </ul>
         </nav>
       </div>

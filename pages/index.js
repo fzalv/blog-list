@@ -41,7 +41,7 @@ export default function Home() {
       </div> */}
 
       {/* Navbar */}
-      <div className=" bg-blue-600">
+      <div className=" bg-primary">
         <div className="container  mx-auto">
           <Navbar />
         </div>
@@ -50,13 +50,13 @@ export default function Home() {
 
       {/* Main */}
       <div className="flex p-10">
-        <div className="container flex-initial w-1/4  p-3 bg-gray-200 rounded-md">
+        <div className="container flex-initial w-1/4  p-3 bg-secondary rounded-md">
           <PostList />
         </div>
-        <div className="container flex-initial w-5/6 mx-5 p-3 bg-gray-200 rounded-md">
+        <div className="container flex-initial w-5/6 mx-5 p-3 bg-secondary rounded-md">
           <PostHead />
         </div>
-        <div className="container flex-initial w-1/4  p-3 bg-gray-200 rounded-md">
+        <div className="container flex-initial w-1/4  p-3 bg-secondary rounded-md">
           <PostPhoto />
         </div>
       </div>
