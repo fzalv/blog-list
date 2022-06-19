@@ -4,7 +4,9 @@ const Navbar = () => {
   return (
     <div className="container text-white p-3">
       <div className="flex items-center justify-between relative">
-        <h1 className="font-bold text-lg">BERITA UHUY</h1>
+        <h1 className="font-bold text-lg">
+          <a href="/">BERITA UHUY</a>
+        </h1>
         <nav>
           <ul className="flex ">
             <li className="mr-8 font-normal">

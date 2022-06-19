@@ -1,20 +1,11 @@
-// import Image from "next/image";
-// import styles from "../styles/Home.module.css";
-// import { PostCard, PostWidget, Categories } from "../components";
-// import PostDetail from "../components/PostDetail";
 import Head from "next/head";
 import PostList from "../components/PostList";
 import PostHead from "../components/PostHead";
 import PostPhoto from "../components/PostPhoto";
 import Navbar from "../components/Navbar";
-// import { PostList, PostHead, PostPhoto, Navbar } from "../components";
+import DetailPost from "../components/DetailPost";
 
-// const posts = [
-//   { title: "React Testing", excerpt: "Learn React Testing" },
-//   { title: "React With Tailwind", excerpt: "Learn React With Tailwind" },
-// ];
-
-export default function Home() {
+export default function Detail() {
   return (
     <div>
       <Head>
@@ -37,7 +28,7 @@ export default function Home() {
           <PostList />
         </div>
         <div className="container flex-initial w-5/6 mx-5 p-3 bg-secondary rounded-md">
-          <PostHead />
+          <DetailPost />
         </div>
         <div className="container flex-initial w-1/4  p-3 bg-secondary rounded-md">
           <PostPhoto />
