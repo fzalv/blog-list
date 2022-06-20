@@ -1,0 +1,35 @@
+.img1 {
+  background: url(../public/img/head/Hphoto3.jpg);
+  border-radius: 6px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  /* display: flex;
+  position: relative; */
+  /* height: 200px; */
+  /* padding: 8px; */
+}
+
+.img2 {
+  background: url(../public/img/head/Hphoto2.jpg);
+  border-radius: 6px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  /* display: flex;
+  position: relative; */
+  /* height: 200px; */
+  /* padding: 8px; */
+}
+
+.img3 {
+  background: url(../public/img/head/Hphoto4.jpg);
+  border-radius: 6px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  /* display: flex;
+  position: relative; */
+  /* height: 200px; */
+  /* padding: 8px; */
+}

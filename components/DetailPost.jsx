@@ -1,8 +1,3 @@
-import Image from "next/image";
-import HPhoto1 from "../public/img/head/HPhoto1.jpg";
-import HPhoto2 from "../public/img/head/HPhoto2.jpg";
-import HPhoto3 from "../public/img/head/HPhoto3.jpg";
-import HPhoto4 from "../public/img/head/HPhoto4.jpg";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
@@ -48,13 +43,13 @@ const DetailPost = () => {
         return (
           <div className="bg-primary p-3 text-white rounded-md" key={index}>
             <div className="container">
-              <h1 className="text-base font-semibold pb-2">{detail.title}</h1>
-              <p className="pb-3 pt-5 text-justify">{detail.body}</p>
+              <h1 className="text-lg font-bold pb-2">{detail.title}</h1>
+              <p className="pb-3 pt-3 text-justify">{detail.body}</p>
               <div className="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                   <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd" />
                 </svg>
-                <p className="ml-2 font-normal underline">Posted on Februari 18,2022</p>
+                <p className="ml-2 font-normal underline underline-offset-4">Posted on Februari 18,2022</p>
               </div>
             </div>
           </div>
@@ -63,12 +58,11 @@ const DetailPost = () => {
       {/* DETAIL BERITA END */}
 
       {/* COMMENT */}
-      <div className="font-bold text-xl pt-10 pb-8">
+      <div className="font-bold text-xl pt-5 pb-8">
         <h1 className="border-l-8 pl-3 border-button">COMMENT</h1>
       </div>
-      {/* <div className=""> */}
-      <div className="bg-primary p-3 mx-2 rounded-md text-white">
-        {comments.slice(0, 4).map((comment, index) => {
+      <div className="bg-primary p-3  rounded-md text-white">
+        {comments.slice(0, 5).map((comment, index) => {
           return (
             <div className="pb-5 " key={index}>
               <div className="flex items-center pb-3">
@@ -80,12 +74,11 @@ const DetailPost = () => {
                   <p className="text-button">{comment.email}</p>
                 </div>
               </div>
-              <p className="text-justify border-b border-button">{comment.body}</p>
+              <p className="pb-1 border-b border-button">{comment.body}</p>
             </div>
           );
         })}
       </div>
-      {/* </div> */}
       {/* COMMENT END */}
     </div>
   );
