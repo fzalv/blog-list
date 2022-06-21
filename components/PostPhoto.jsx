@@ -8,7 +8,7 @@ const PostPhoto = () => {
   return (
     <div className="intro">
       <div className="font-bold text-xl pb-8">
-        <h1 className="border-l-8 pl-3 border-button">GALERI PHOTO</h1>
+        <h1 className="border-l-8 pl-3 border-button">GALLERY PHOTO</h1>
       </div>
       <div className="bg-primary p-3 mb-2 h-64 rounded-md flex flex-wrap">
         <Image src={GPhoto1} className="rounded-md" alt="" />

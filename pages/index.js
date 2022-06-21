@@ -1,18 +1,8 @@
-// import Image from "next/image";
-// import styles from "../styles/Home.module.css";
-// import { PostCard, PostWidget, Categories } from "../components";
-// import PostDetail from "../components/PostDetail";
 import Head from "next/head";
 import PostList from "../components/PostList";
 import PostHead from "../components/PostHead";
 import PostPhoto from "../components/PostPhoto";
 import Navbar from "../components/Navbar";
-// import { PostList, PostHead, PostPhoto, Navbar } from "../components";
-
-// const posts = [
-//   { title: "React Testing", excerpt: "Learn React Testing" },
-//   { title: "React With Tailwind", excerpt: "Learn React With Tailwind" },
-// ];
 
 export default function Home() {
   return (

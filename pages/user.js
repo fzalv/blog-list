@@ -20,7 +20,7 @@ export default function Detail() {
       {/* Navbar END */}
 
       {/* Main */}
-      <div className="flex container m-auto p-10">
+      <div className="flex p-10 justify-center">
         <div className="flex-initial p-3 bg-secondary rounded-md">
           <UserPage />
         </div>

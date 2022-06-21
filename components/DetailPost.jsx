@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const DetailPost = () => {
+const DetailPost = ({ data }) => {
   const [details, setDetails] = useState([]);
   const getDetails = async () => {
     try {
@@ -38,6 +38,23 @@ const DetailPost = () => {
       <div className="font-bold text-xl pb-8">
         <h1 className="border-l-8 pl-3 border-button">DETAIL BERITA</h1>
       </div>
+
+      {/* {data
+        ? data?.map((item) => (
+            <div className="bg-primary p-3 text-white rounded-md" key={item?.id}>
+              <div className="container">
+                <h1 className="text-lg font-bold pb-2">{item?.title}</h1>
+                <p className="pb-3 pt-3 text-justify">{item?.body}</p>
+                <div className="flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd" />
+                  </svg>
+                  <p className="ml-2 font-normal underline underline-offset-4">Posted on Februari 18,2022</p>
+                </div>
+              </div>
+            </div>
+          ))
+        : null} */}
 
       {details.slice(0, 1).map((detail, index) => {
         return (

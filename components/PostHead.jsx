@@ -14,7 +14,7 @@ const PostHead = () => {
       <div className="bg-primary p-3 text-white rounded-md">
         <div className="flex p-1">
           <div className="container flex-initial w-2/3">
-            <h1 className="text-base font-semibold pb-2">Rara The Rain Shaman</h1>
+            <h1 className="text-base font-bold pb-2">Rara The Rain Shaman</h1>
             <Image src={HPhoto1} className="rounded-md" />
           </div>
           <div className="container flex-initial w-1/2 ml-5">
