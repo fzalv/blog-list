@@ -47,7 +47,7 @@ const PostHead = () => {
           <div className={styles.img2}>
             {/* <Image src={HPhoto3} className="rounded-md" alt="" /> */}
             <div className=" w-full p-2 mt-48 bg-secondary rounded-b-md opacity-80">
-              <p className="py-2 font-semibold text-black">ADA APA DENGAN WINSON & EL RUMI?!</p>
+              <p className="py-2 font-semibold text-black">Ada apa dengan El Rumi dan Winson?!</p>
             </div>
           </div>
         </div>
