@@ -10,7 +10,7 @@ const Navbar = () => {
         <nav>
           <ul className="flex ">
             <li className="mr-8 font-normal hover:border-b border-button">
-              <a href="#">Dunia</a>
+              <a href="#">Explore</a>
             </li>
             <li className="mr-8 font-normal hover:border-b border-button">
               <a href="#">Nasional</a>
